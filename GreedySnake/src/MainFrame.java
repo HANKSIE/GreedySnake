@@ -133,7 +133,7 @@ public class MainFrame extends JFrame {
     }
 
     void directMove(){ //頭的移動
-        t = new Timer(100, new ActionListener() {
+        t = new Timer(150, new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
 
